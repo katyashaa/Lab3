@@ -2,7 +2,7 @@
 using Book.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
-namespace BookApi.Controllers
+namespace Book.Controllers
 {
     [ApiController]
     [Route("api/[controller]/[action]")]

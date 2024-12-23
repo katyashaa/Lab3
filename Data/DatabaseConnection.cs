@@ -37,28 +37,33 @@ namespace Book.Data
             }
         }
         
-        // Общий метод поиска книг 
-        public async Task<List<Books>> SearchBooksAsync(Func<IQueryable<Books>, IQueryable<Books>> queryBuilder)
+        public async Task<List<Books>> SearchBooksAsync(Func<IQueryable<Books>, IQueryable<Books>> filter)
         {
-            // Выполняем запрос и возвращаем список результатов
-            return await queryBuilder(_context.Books).ToListAsync();
+            // Выполняем запрос с переданным фильтром и возвращаем полный список книг
+            return await filter(_context.Set<Books>()).ToListAsync();
         }
-        
+
+
+        // Поиск книг по названию
         public async Task<List<Books>> SearchBooksByTitleAsync(string title)
         {
-            return await SearchBooksAsync(query => query.Where(b => EF.Functions.ILike(b.Title, $"%{title}%")));
+            return await SearchBooksAsync(query => query.Where(b => EF.Functions.ILike(b.Title, $"%{title.Replace("%", "\\%").Replace("_", "\\_")}%")));
+
         }
-        
+
+        // Поиск книг по автору
         public async Task<List<Books>> SearchBooksByAuthorAsync(string author)
         {
             return await SearchBooksAsync(query => query.Where(b => EF.Functions.ILike(b.Author, $"%{author}%")));
         }
-        
+
+        // Поиск книг по ISBN
         public async Task<List<Books>> SearchBooksByISBNAsync(string isbn)
         {
-            return await SearchBooksAsync(query => query.Where(b => b.ISBN == isbn));
+            return await SearchBooksAsync(query => query.Where(b => EF.Functions.ILike(b.ISBN, isbn)));
         }
-        
+
+        // Поиск книг по ключевым словам
         public async Task<List<Books>> SearchBooksByKeywordAsync(string keyword)
         {
             return await SearchBooksAsync(query => query.Where(b => EF.Functions.ILike(b.Keywords, $"%{keyword}%")));

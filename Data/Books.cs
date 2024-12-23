@@ -1,10 +1,9 @@
-﻿using System.Collections;
-using Book.Interfaces;
+﻿using Book.Interfaces;
 
 namespace Book.Data
 {
     // Класс книги, реализующий интерфейс ISearchable
-    public class Books : ISearchable, IEnumerable<string>
+    public class Books : ISearchable
     {
         public int Id { get; set; }
         public string Title { get; set; }
@@ -14,8 +13,10 @@ namespace Book.Data
         public string Description { get; set; }
         public string Keywords { get; set; }
 
-        public Books() {}
+        // Конструктор без параметров
+        public Books() { }
 
+        // Конструктор с параметрами
         public Books(string title, string author, string isbn, string year, string keywords, string description)
         {
             Title = title;
@@ -24,28 +25,13 @@ namespace Book.Data
             Year = year;
             Description = description;
             Keywords = keywords;
-
-            
         }
-        
+
+        // Переопределение метода ToString для удобного отображения информации о книге
         public override string ToString()
         {
             return $"Title: {Title}\nAuthor: {Author}\nISBN: {ISBN}\nYear: {Year}\nKeywords: {Keywords}\nDescription: {Description}\n";
         }
-        // Реализация интерфейса IEnumerable<string>
-        public IEnumerator<string> GetEnumerator()
-        {
-            // Если Keywords не пустая, то делим строку по запятой
-            if (!string.IsNullOrEmpty(Keywords))
-            {
-                foreach (var keyword in Keywords.Split(','))
-                {
-                    yield return keyword.Trim(); // Возвращаем ключевое слово, убрав лишние пробелы
-                }
-            }
-        }
-
-        // Реализация интерфейса IEnumerable
-        IEnumerator IEnumerable.GetEnumerator() => GetEnumerator();
+        
     }
 }

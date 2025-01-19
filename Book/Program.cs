@@ -1,8 +1,9 @@
-﻿using Book.Commands;
+﻿
+using Book.Commands;
 using Book.Data;
 using Book.Interfaces;
 
-namespace Book.Menu
+namespace Book
 {
     class Program
     {

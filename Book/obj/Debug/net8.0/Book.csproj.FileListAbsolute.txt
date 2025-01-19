@@ -1,3 +1,9 @@
+C:\Users\shadr\RiderProjects\Book\Book\Book\obj\Debug\net8.0\Book.csproj.AssemblyReference.cache
+C:\Users\shadr\RiderProjects\Book\Book\Book\obj\Debug\net8.0\Book.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shadr\RiderProjects\Book\Book\Book\obj\Debug\net8.0\Book.AssemblyInfoInputs.cache
+C:\Users\shadr\RiderProjects\Book\Book\Book\obj\Debug\net8.0\Book.AssemblyInfo.cs
+C:\Users\shadr\RiderProjects\Book\Book\Book\obj\Debug\net8.0\Book.csproj.CoreCompileInputs.cache
+C:\Users\shadr\RiderProjects\Book\Book\Book\obj\Debug\net8.0\Book.sourcelink.json
 C:\Users\shadr\RiderProjects\Book\Book\Book\bin\Debug\net8.0\Book.exe
 C:\Users\shadr\RiderProjects\Book\Book\Book\bin\Debug\net8.0\Book.deps.json
 C:\Users\shadr\RiderProjects\Book\Book\Book\bin\Debug\net8.0\Book.runtimeconfig.json
@@ -91,15 +97,9 @@ C:\Users\shadr\RiderProjects\Book\Book\Book\bin\Debug\net8.0\ru\Microsoft.CodeAn
 C:\Users\shadr\RiderProjects\Book\Book\Book\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\shadr\RiderProjects\Book\Book\Book\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\shadr\RiderProjects\Book\Book\Book\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\shadr\RiderProjects\Book\Book\Book\obj\Debug\net8.0\Book.csproj.AssemblyReference.cache
-C:\Users\shadr\RiderProjects\Book\Book\Book\obj\Debug\net8.0\Book.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\shadr\RiderProjects\Book\Book\Book\obj\Debug\net8.0\Book.AssemblyInfoInputs.cache
-C:\Users\shadr\RiderProjects\Book\Book\Book\obj\Debug\net8.0\Book.AssemblyInfo.cs
-C:\Users\shadr\RiderProjects\Book\Book\Book\obj\Debug\net8.0\Book.csproj.CoreCompileInputs.cache
 C:\Users\shadr\RiderProjects\Book\Book\Book\obj\Debug\net8.0\Book.csproj.Up2Date
 C:\Users\shadr\RiderProjects\Book\Book\Book\obj\Debug\net8.0\Book.dll
 C:\Users\shadr\RiderProjects\Book\Book\Book\obj\Debug\net8.0\refint\Book.dll
 C:\Users\shadr\RiderProjects\Book\Book\Book\obj\Debug\net8.0\Book.pdb
 C:\Users\shadr\RiderProjects\Book\Book\Book\obj\Debug\net8.0\Book.genruntimeconfig.cache
 C:\Users\shadr\RiderProjects\Book\Book\Book\obj\Debug\net8.0\ref\Book.dll
-C:\Users\shadr\RiderProjects\Book\Book\Book\bin\Debug\net8.0\appsettings.json

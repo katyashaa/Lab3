@@ -3,7 +3,6 @@ using Book.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
 using WebApplication1;
-using Xunit;
 
 namespace Test;
 

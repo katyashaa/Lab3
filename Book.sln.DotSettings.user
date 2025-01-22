@@ -4,6 +4,9 @@
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;xUnit::B5B8FC44-4855-4BBC-BFE2-079D00E5F8C1::net8.0::Test.BooksControllerTests&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::B5B8FC44-4855-4BBC-BFE2-079D00E5F8C1::net8.0::Test.BooksControllerAddTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::B5B8FC44-4855-4BBC-BFE2-079D00E5F8C1::net8.0::Test.BooksControllerGetTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::B5B8FC44-4855-4BBC-BFE2-079D00E5F8C1::net8.0::Test.BooksControllerDeleteTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::B5B8FC44-4855-4BBC-BFE2-079D00E5F8C1::net8.0::Test.BooksUtilityTests&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=d03c8de4_002Da7f7_002D4111_002D8f55_002D61b63c51627e/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="BooksControllerTests #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;

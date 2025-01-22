@@ -44,5 +44,4 @@ app.UseHttpsRedirection();
 
 // Добавление маршрутов для контроллеров
 app.MapControllers();
-
 app.Run();

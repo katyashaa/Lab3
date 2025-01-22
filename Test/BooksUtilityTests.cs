@@ -1,10 +1,8 @@
 ﻿using Book.Data;
-using Xunit;
-using Book.Data;
 using Book.Interfaces;
-using Microsoft.AspNetCore.Mvc;
 using Moq;
 using WebApplication1;
+
 namespace Test;
 
 public class BooksUtilityTests 
